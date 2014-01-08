@@ -1,0 +1,1 @@
+{"prepare_queue":{"installed":[],"uninstalled":[]},"config_munge":{"config.xml":{"/*":{"<feature name=\"Mytransition\"><param name=\"ios-package\" value=\"Mytransition\" /><param name=\"onload\" value=\"true\" /></feature>":1}}},"installed_plugins":{"nativetransitions":{"PACKAGE_NAME":"com.example.test"}},"dependent_plugins":{}}
