@@ -7,23 +7,23 @@ Emulating transitions are a thing of the past, you can now use real native page 
 For Detail Plz Read [here](http://www.excellentwebworld.com//native-transitions-plugin-for-ios-phonegap).
 
 ### Automatically (CLI / Plugman)
-SocialSharing is compatible with [Cordova Plugman](https://github.com/apache/cordova-plugman), compatible with [PhoneGap 3.0 CLI](http://docs.phonegap.com/en/3.0.0/guide_cli_index.md.html#The%20Command-line%20Interface_add_features), here's how it works with the CLI:
+Native Transitions Plugin is compatible with [Cordova Plugman](https://github.com/apache/cordova-plugman), compatible with [PhoneGap 3.0 CLI](http://docs.phonegap.com/en/3.0.0/guide_cli_index.md.html#The%20Command-line%20Interface_add_features), here's how it works with the CLI:
 Step 1 : got Git or any cmd interface and follow your app path and enter this command
 ```
 cordova plugin add https://github.com/mayurloved/native-ios-transitions.git
 
 OR
 
-cordova plugin add https://github.com/mayurloved/native-ios-transitions.git
+phonegap plugin add https://github.com/mayurloved/native-ios-transitions.git
 ```
 Step 2:Grab a copy of Mytransition.js from www folder,add it to your project and reference it in `index.html`:
 
 ```html
     <script type="text/javascript" src="js/Mytransition.js"></script>
 ```
-## There are Diffrent Transitions Effect Are Available 
+### There are Diffrent Transitions Effect Are Available 
 
-### Flip
+#### Flip
 
 ```js
 var duration = 0.6, // animation time in seconds
@@ -31,7 +31,7 @@ direction = "right"; // animation direction - left || right
 nativetransitions.flip(duration, direction, onComplete);
 ```
 
-### Curl
+#### Curl
 
 ```js
 var duration = 0.6, // animation time in seconds
@@ -39,14 +39,14 @@ direction = "down"; // animation direction - up || down
 nativetransitions.curl(duration, direction, onComplete);
 ```
 
-### Fade
+#### Fade
 ```js
 var duration = 0.6 // animation time in seconds
 nativetransitions.fade(duration, onComplete);
 ```
 
 ## Example
-
+For Download The Full Demo Example got to example\eww\platforms\ios or Download from here [here](http://www.excellentwebworld.com/wp-content/uploads/2014/01/eww.zip).
 Here's an example of how I suggest you use the plugin in your code, so that you get a realistic transition:
 
 ```
