@@ -176,4 +176,5 @@ Currently iOS only (version 4+) and tested in ios7.
 
 ## License
 Our Special Thanks to Lee Crossley.
+
 [![Mayur Panchal](http://excellentwebworld.com/wp-content/uploads/2013/07/logo.png)](http://www.excellentwebworld.com/ "Blogging")
